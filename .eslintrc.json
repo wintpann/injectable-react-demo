@@ -25,6 +25,7 @@
     ],
     "rules": {
         "object-curly-newline": "off",
+        "react/jsx-no-useless-fragment": "off",
         "prettier/prettier": [
             "error",
             {
@@ -64,7 +65,8 @@
         "react/destructuring-assignment": "off",
         "import/no-extraneous-dependencies": "off",
         "no-plusplus": "off",
-        "@typescript-eslint/explicit-function-return-type": "off"
+        "@typescript-eslint/explicit-function-return-type": "off",
+        "react/function-component-definition": "off"
     },
     "settings": {
         "import/resolver": {

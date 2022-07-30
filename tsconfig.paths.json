@@ -3,10 +3,12 @@
     "baseUrl": ".",
     "paths": {
       "@app/*": ["src/app/*"],
+      "@uikit/*": ["src/uikit/*"],
+      "@hooks/*": ["src/hooks/*"],
       "@pages/*": ["src/pages/*"],
       "@modules/*": ["src/modules/*"],
       "@shared/*": ["src/shared/*"],
-      "@injectable/*": ["src/injectable/*"]
+      "@injectable": ["src/injectable/index.ts"]
     }
   }
 }
